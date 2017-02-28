@@ -1,0 +1,3 @@
+1. 插入单条  /order/insertOne?key=xxx&order=xxxxxx      参数：  string->key  string->order（用逗号隔开，需要encode）
+2. 插入多条  /order/insertMore?key=xxx&orders=xxxxx     参数:   string->key  string->orders（一条之间用逗号，条与条之间用&隔开，需要encode）
+3. 获取进度 /order/getSchedule/{serverId}     参数：  int->serverId
